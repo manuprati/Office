@@ -1,0 +1,103 @@
+body {
+    font-family: 'Noto Serif', serif;
+    /* background-color: black; */
+}
+nav .nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+}    
+
+.header{
+    height: 50vh;
+    width: 100%;
+    color: white;
+    font-size: large;
+    background-image:linear-gradient(to right, rgba(38, 50, 224, 0.9),rgba(224, 23, 23, 0.2)) ,url("../images/p6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute;
+    top: 50%;
+    transform: translateX(50%); */
+}
+#nm{
+    color: #d299c2;
+    text-align: center;
+}
+.h-100{
+    text-align: center;
+}
+.btn{
+    border-radius: 1rem!important;
+    padding: .5rem! important;
+}
+.msg{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+.msg1{
+    background-image: linear-gradient(to top, #d299c2 0%, #17e0a4 100%);
+}
+.cards{
+    background-color: black;
+}
+.myicon{
+    font-size: 60px;
+    padding: 10px;
+}
+ul{
+    text-align: justify;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 80px;
+    height: 16px;
+    box-shadow: 0 15px 0 #fff;
+    position: relative;
+    clip-path: polygon(0 -10px,100% -10px,100% 100%,50% calc(100% + 15px),0 100%);
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    aspect-ratio: 1;
+    background:
+      radial-gradient(farthest-side,lightblue 98%,#0000) bottom/14px 14px,
+      radial-gradient(farthest-side,red       98%,#0000) top   /14px 14px,
+      linear-gradient(#ffffff 0 0) 50%/4px 95%;
+    background-repeat: no-repeat;
+    animation: l5 1.5s infinite linear;   
+    mix-blend-mode: lighten;
+  }
+  .loader:after {
+    --d:-90deg;
+  }
+  @keyframes l5{
+    0%  {transform:translateY(14px) rotate(calc(  0deg + var(--d,0deg)))}
+    100%{transform:translateY(14px) rotate(calc(-90deg + var(--d,0deg)))}
+  }
+  
+.service{
+    height: 99vh;
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(1, 20, 10, 0.9),rgba(17, 1, 22, 0.2)) ,url("https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=600");
+    color: #eaf1a6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    background-color: #0000;
+}
+
+.contact{
+    padding-top: 300px;
+    height: 99vh;
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(1, 20, 10, 0.9),rgba(17, 1, 22, 0.2)) ,url("https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=600");
+    color: #eaf1a6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
